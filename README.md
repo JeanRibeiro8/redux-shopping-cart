@@ -15,13 +15,11 @@ The project combines a product catalog, search and filtering, product details, c
 
 ---
 
-## 🔗 Project
-
-
 ## 🌐 Project Links
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-CodeLens-000000?style=for-the-badge)](aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge\&logo=github)](https://github.com/JeanRibeiro8/redux-shopping-cart)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Redux%20Shopping%20Cart-000000?style=for-the-badge)](https://redux-shopping-cart-gilt.vercel.app/)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge\&logo=github)](https://github.com/JeanRibeiro8/shoppingCart)
 
 ---
 
@@ -29,12 +27,11 @@ The project combines a product catalog, search and filtering, product details, c
 
 <div align="center">
 
-<img src="./public/redux-shopping-cart.png.png" width="850" alt="redux-shopping-cart interface">
+<img src="./public/redux-shopping-cart.png" width="850" alt="Redux Shopping Cart interface">
 
 </div>
 
 ---
-
 
 ## 📌 Overview
 
@@ -189,7 +186,7 @@ useAppDispatch
 useAppSelector
 ```
 
-These typed hooks provide a TypeScript-safe interface for dispatching actions and reading data from the Redux store.
+These typed hooks provide a TypeScript-safe interface for dispatching Redux actions and reading data from the Redux store.
 
 ---
 
@@ -271,7 +268,7 @@ src/
 Contains the Redux store configuration and typed Redux hooks.
 
 **`features/`**
-Organizes the application's main features. Each feature contains related state, components, types, and tests.
+Organizes the main application features. Each feature contains its related state, components, types, and tests.
 
 **`components/`**
 Contains reusable application-level components such as the header.
@@ -279,7 +276,7 @@ Contains reusable application-level components such as the header.
 **`pages/`**
 Contains the main pages used by the application's client-side routing.
 
-This structure keeps feature logic organized while separating global application configuration, reusable components, and page-level components.
+This structure keeps feature logic organized while separating application configuration, reusable components, and page-level components.
 
 ---
 
@@ -319,39 +316,39 @@ The project does **not** claim 100% test coverage.
 
 ---
 
-## 🚀 Installation
+## 🚀 Getting Started
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/JeanRibeiro8/redux-shopping-cart.git
-```
-
-### 2. Navigate to the project
+### Clone the repository
 
 ```bash
-cd redux-shopping-cart
+git clone https://github.com/JeanRibeiro8/shoppingCart.git
 ```
 
-### 3. Install dependencies
+### Navigate to the project
+
+```bash
+cd shoppingCart
+```
+
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-### 4. Start the development server
+### Start the development server
 
 ```bash
 npm run dev
 ```
 
-### 5. Create a production build
+### Create a production build
 
 ```bash
 npm run build
 ```
 
-### 6. Run the test suite
+### Run the test suite
 
 ```bash
 npm test
@@ -399,9 +396,7 @@ The interface was designed to provide:
 * Interactive states
 * Semantic HTML structure
 
-The design supports the technical goal of the project by providing a realistic frontend context in which global state management can be applied.
-
-> No screenshot is included in this README because an actual repository image path was not provided.
+The design provides a realistic frontend context for applying global state management concepts while keeping the interface focused on the shopping experience.
 
 ---
 
@@ -427,9 +422,9 @@ Redux Shopping Cart is a **frontend portfolio project** focused on React, TypeSc
 
 The current product catalog uses **local/mock data** rather than a real product API.
 
-The project does not currently implement a real payment, order-processing, or backend checkout system.
+The project does not currently implement a real payment, order-processing, database, authentication, or backend checkout system.
 
-If a checkout-related interface is present in the frontend, it should be understood as part of the UI demonstration rather than a real transaction system.
+The application should therefore be understood as a frontend demonstration of e-commerce UI patterns and global state management rather than a complete commercial e-commerce platform.
 
 ---
 
